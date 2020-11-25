@@ -17,8 +17,8 @@
     <!--header Navigation + logo-->
     <header>
         <nav>
-            <div>
-                <img src="images/logo/Reservia.svg" alt="logo reservia">
+            <div class="logo__reservia">
+                <a href="#"><img class="img__reservia" src="images/logo/Reservia.svg" alt="logo reservia"></a>
             </div>
 
             <ul class="nav__menu">
@@ -28,16 +28,14 @@
                 <li>
                     <a href="#" class="nav__link">Activités</a>
                 </li>
-                <li>
-                    <a href="#" class="nav__link register">S'inscrire</a>
-                </li>
             </ul>
+            <div class="subscribe"><a href="#">S'inscrire</a></div>
         </nav>
     </header>
     <!--Recherche & filtre-->
     <div class="title__container">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
+        <p>En plein centre-ville ou en pleine nature</p>
     </div>
     <div class="search__box">
         <form>
@@ -46,22 +44,27 @@
             </div>
             <input type="search" name="box" placeholder="Marseille,France">
             <input type="submit" name="rechercher" value="Rechercher">
+            <button class="search__responsive">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
         </form>
     </div>
 
     <div class="filter">
         <h3>Filtres</h3>
-        <div class="border__filter">
-            <div class="circle__box">
-                <i class="fas fa-money-bill-wave filter__icon"></i>
+        <div class="resp__box">
+            <div class="border__filter">
+                <div class="circle__box">
+                    <i class="fas fa-money-bill-wave filter__icon"></i>
+                </div>
+                <span>&Eacute;conomique</span>
             </div>
-            <span>&Eacute;conomique</span>
-        </div>
-        <div class="border__filter">
-            <div class="circle__box">
-                <i class="fas fa-child filter__icon"></i>
+            <div class="border__filter">
+                <div class="circle__box">
+                    <i class="fas fa-child filter__icon"></i>
+                </div>
+                <span>Familial</span>
             </div>
-            <span>Familial</span>
         </div>
         <div class="border__filter">
             <div class="circle__box">
