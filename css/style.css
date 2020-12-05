@@ -5,10 +5,10 @@
     
      :root {
         /***** Color *****/
-        --first-color: #4070F4;
+        --first-color: #0065FC;
         --second-color: #ffffff;
         --third-color: #000000;
-        --fourth-color: #acc9f7;
+        --fourth-color: #DEEBFF;
         /***** Font size *****/
         --body-font: 'Raleway', sans-serif;
         --big-font-size: 2rem;
@@ -136,7 +136,7 @@
     
     .bg__marker {
         position: relative;
-        background-color: rgb(242, 242, 242);
+        background-color: #F2F2F2;
         height: 60px;
         width: 60px;
         border-radius: 25px 0 0 25px;
@@ -155,7 +155,7 @@
         display: inline-block;
         font-size: 1.2rem;
         box-sizing: border-box;
-        border: 1px solid rgb(242, 242, 242);
+        border: 1px solid #F2F2F2;
         padding: 1%;
         height: 60px;
     }
@@ -269,7 +269,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         border-radius: 25px 25px 25px 25px;
-        background-color: rgb(242, 242, 242);
+        background-color: #F2F2F2;
         width: 60%;
         height: 80%;
         padding: 30px;
@@ -308,7 +308,7 @@
         object-fit: cover;
     }
     
-    .product__container h1 {
+    .product__container h2 {
         width: 100%;
     }
     
@@ -324,7 +324,7 @@
     .popular__container {
         width: 25%;
         border-radius: 25px 25px 25px 25px;
-        background-color: rgb(242, 242, 242);
+        background-color: #F2F2F2;
         padding: 30px;
     }
     
@@ -378,7 +378,7 @@
         margin-top: 5%;
     }
     
-    #activites h1 {
+    #activites h2 {
         margin-left: 5vw;
     }
     
@@ -438,7 +438,7 @@
         padding-left: 2%;
         padding-right: 30%;
         padding-bottom: 2%;
-        background-color: rgb(242, 242, 242);
+        background-color: #F2F2F2;
         width: 100%;
     }
     
