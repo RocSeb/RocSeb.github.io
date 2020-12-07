@@ -199,7 +199,7 @@
     }
     
     .border__filter:hover {
-        background: linear-gradient(to right, var(--second-color) 50%, var(--fourth-color) 50%);
+        background: linear-gradient(to right, #e66465, #9198e5);
         box-shadow: 10px 5px 5px rgba(21, 21, 21, 0.5);
     }
     
@@ -469,7 +469,7 @@
             grid-area: b;
         }
         nav ul li {
-            width: 50%;
+            width: 45%;
         }
         nav ul li:hover {
             border-top: none;
@@ -489,6 +489,12 @@
         input[type="submit"] {
             display: none;
         }
+        input[type="search"] {
+            width: 150px;
+        }
+        input::placeholder {
+            font-size: 0.9rem;
+        }
         .search__responsive {
             display: block;
             background-color: var(--first-color);
@@ -498,6 +504,9 @@
             height: 60px;
             border: none;
             color: var(--second-color);
+        }
+        .border__filter {
+            width: 140px;
         }
         #hebergement {
             display: flex;
@@ -552,5 +561,8 @@
     @media screen and (max-width: 1200px) {
         .filter {
             flex-wrap: wrap;
+        }
+        .product__content {
+            height: 350px;
         }
     }
