@@ -29,7 +29,7 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 98vw;
     background-color: var(--second-color);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
